@@ -13,12 +13,12 @@ public class StudentManagement {
 
     public void addStudent(Student student) {
         this.students.add(student);
-        System.out.println("✅ Student: " + student.getName() + " added successfully.");
+        System.out.println(" Student: " + student.getName() + " added successfully.");
     }
 
     public void displayAllStudents() {
         if (students.isEmpty()) {
-            System.out.println("ℹ️ No students currently registered.");
+            System.out.println("️ No students currently registered.");
             return;
         }
 
